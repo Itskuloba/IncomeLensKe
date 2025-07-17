@@ -93,7 +93,7 @@ Tools and techniques used for data analysis, querying, and visualization:
 
 ## Stretch Goals 
 
-> - Use Machine Learning to predict household vulnerability or classify spending behavior
+- Use Machine Learning to predict household vulnerability or classify spending behavior
 
 
 ---
