@@ -1,64 +1,44 @@
-# IncomeLensKe
-# gen-data Capstone Project Idea Proposal
-
 ---
+IncomeLensKE: Data Analytics Capstone Project Proposal
 
-## Project Title  
-_IncomeLensKe_
+Project Title
+IncomeLensKE: Analyzing Household Expenditure Patterns in Kenya
 
----
+Project Description
+IncomeLensKE investigates how income levels, household demographics, and geographic location shape household expenditure patterns in Kenya using the Kenya Integrated Household Budget Survey (KIHBS) data. The project examines spending on food and non-food items, calculates per capita expenditures, and identifies regional disparities to provide actionable insights for policymakers, NGOs, economists, and researchers. By leveraging interactive visualizations and data-driven analysis, it aims to inform economic planning, poverty reduction strategies, and equitable policy development.
 
-## Project Description
+Problem Statement
+Inconsistent and poorly understood household expenditure patterns in Kenya, driven by disparities in income levels, household demographics, and regional differences, hinder efficient resource allocation, perpetuate poverty, and limit effective economic planning. This project examines how income, household size, and location influence spending on essential and non-essential items, identifies regional disparities, and delivers data-driven insights through interactive dashboards to support poverty reduction and equitable policy development.
 
-_This project analyzes how income levels and demographic characteristics influence household expenditure patterns in Kenya using national survey data._
-It answers the question, How do income levels and household demographics influence expenditure patterns in Kenya, and what insights can policymakers derive to improve economic planning and poverty reduction?
+Research Questions
 
-It will:
-
-- Examine the relationship between household income, size, and location with spending on food and non-food items
-- Calculate per capita expenditures and highlight regional disparities
-- Visualize insights through Tableau dashboards
-- Provide insights that can inform targeted social policies, poverty reduction strategies, and budget planning tools
-
-
----
-
-
-## Purpose / Problem Solved
-
-This project seeks to uncover how income levels and demographic factors influence how Kenyan households allocate their income across essential and non-essential needs.
-
-By analyzing nationally representative data:
-
-- It highlights patterns in income distribution
-- It helps identify how much of a household’s income goes to food, education, housing, and utilities and how this varies by region, household size, or income level
-- The findings offer insights that can empower individuals and policymakers with data on Spending habits, tax reliefs, Savings potential, Investment readiness
+How does total monthly expenditure vary with household size?
+What are the significant differences in expenditures between urban and rural residential areas?
+What percentage of households fall below the absolute poverty line based on their expenses?
+What are the key regional disparities for targeted policy interventions?
+What is the breakdown of consumption expenditure by category (e.g., food, housing, education)?
+What is the correlation between household size and total consumption expenditure?
 
 
+Target Audience
 
----
-
-## Planned Features
-
-
-[✓] **Data Cleaning & Transformation** – Prepare KIHBS data for structured analysis 
-
-[✓] **SQL Database Design** – Normalize and store household income and expenditure data across related tables
-
-[✓] **Tableau Dashboards** – Visualize expenditure trends through Engel curves, income-based spending breakdowns and inequality heat maps
-
-[✓] **Data Storytelling** – Presenting insights through compelling visuals and a policy-relevant narrative
-
-[✓] **Exploratory Data Analysis (EDA)** – Identify patterns and correlations between demographic variables and spending
+Policymakers: For evidence-based economic planning and poverty reduction strategies.
+NGOs: To target interventions for vulnerable households.
+Economists: To understand expenditure patterns and income distribution.
+Researchers: To build on findings for further socioeconomic studies.
 
 
----
+Planned Features
 
-## Technologies / Concepts I Plan to Use
+Data Collection: Scrape supplementary data (e.g., poverty line thresholds, regional economic indicators) to complement KIHBS data.
+Data Cleaning & Transformation: Use Excel and Pandas to clean and preprocess KIHBS data for analysis.
+Exploratory Data Analysis (EDA): Use Pandas and NumPy to identify patterns and correlations in expenditure data.
+Visualizations: Create static (Matplotlib/Seaborn), interactive (Plotly), and spatial (Geopandas) visualizations, plus Tableau dashboards.
+Data Storytelling: Present insights through compelling visuals and a policy-relevant narrative.
 
+
+Technologies / Concepts
 Tools and techniques used for data analysis, querying, and visualization:
-
--**SQL** – To store, query, and analyze large household datasets
 
 -**Tableau** – To create interactive dashboards and visualizations
 
@@ -66,34 +46,41 @@ Tools and techniques used for data analysis, querying, and visualization:
 
 -**Data Cleaning & Integration** – Handling missing values, removing whitespaces, and merging multiple datasets
 
----
-
-
-## Data Source
-
-[✓] **Local file** – KIHBS datasets provided by the Kenya National Bureau of Statistics
-
-[✓] **Manual cleaning** – Some files manually inspected and cleaned using Excel 
-
-
----
-
-## Success Criteria
-
-*The project will be considered successful if it:*
-
-- Clearly shows how income and demographic factors influence household expenditure
-- Produces insightful Tableau dashboards 
-- Answers the main research question and supports data-driven conclusions
-- Identifies potential policy insights or opportunities for vulnerable groups
-
----
 
 
 
-## Stretch Goals 
+Excel: Initial data cleaning, preprocessing, and manual inspection.
+Tableau: Create interactive dashboards with KPIs, filters, and maps.
+Data Cleaning & Integration: Handle missing values, standardize formats, and merge datasets.
 
-- Use Machine Learning to predict household vulnerability or classify spending behavior
+
+Data Source
+
+Primary Source: KIHBS datasets from Kenya National Bureau of Statistics (KNBS), covering household income, expenditure, size, and location.
+Supplementary Source: Scrape poverty line thresholds, regional GDP, or consumer price indices from KNBS, Central Bank of Kenya, or World Bank websites.
+Manual Cleaning: Use Excel to inspect and clean KIHBS data (e.g., remove whitespaces, standardize categories).
 
 
----
+Success Criteria
+The project will be considered successful if it:
+
+Clearly demonstrates how income, household size, and location influence expenditure patterns.
+Produces insightful Tableau dashboards with interactive visualizations.
+Answers all research questions with data-driven conclusions.
+Identifies actionable policy insights for poverty reduction and equitable resource allocation.
+
+
+Stretch Goals
+
+Use machine learning (e.g., clustering with scikit-learn) to classify households by spending behavior or predict vulnerability to poverty.
+Incorporate time-series forecasting to predict future expenditure trends based on income and demographic changes.
+
+
+
+
+
+
+
+
+
+
